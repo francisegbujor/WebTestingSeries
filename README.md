@@ -7,7 +7,7 @@ A series of different Automated website testing. Implementing a Page Object Mode
 
 
 TOOLS/TECHNOLOGIES
-Selenium
-Python
-Pytest
-Jenkins
+-  Selenium
+-  Python
+-  Pytest
+-  Jenkins
