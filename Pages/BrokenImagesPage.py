@@ -24,12 +24,12 @@ class BrokenImages(BasePage):
         return title_text
 
     def get_image_total(self):
-        image_elements = self.finds(*self.image_list)
+        image_elements = self.find_elements(*self.image_list)
         return len(image_elements)
 
     def get_images_broken(self):
         broken_images = []
-        image_elements = self.finds(*self.image_list)
+        image_elements = self.find_elements(*self.image_list)
         for img in image_elements:
             try:
                 src = img.get_attribute('src')
@@ -46,7 +46,7 @@ class BrokenImages(BasePage):
 
     def get_images_proper(self):
         proper_images = []
-        image_elements = self.finds(*self.image_list)
+        image_elements = self.find_elements(*self.image_list)
         for img in image_elements:
             try:
                 src = img.get_attribute('src')

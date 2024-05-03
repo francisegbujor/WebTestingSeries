@@ -34,6 +34,10 @@ def setup(request):
     print("Close Driver")
     driver.close()
 
+'''
+def _capture_screenshot(driver, name):
+    driver.get_screenshot_as_file(name)
+
 
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item):
@@ -56,7 +60,6 @@ def pytest_runtest_makereport(item):
                            'onclick="window.open(this.src)" align="right"/></div>' % file_name
                     extra.append(pytest_html.extras.html(html))
             report.extras = extra
+'''
 
 
-def _capture_screenshot(name):
-    driver.get_screenshot_as_file(name)

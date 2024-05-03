@@ -286,3 +286,1442 @@
 2024-03-28 15:48:42,490 :INFO : test_broken_image :get proper images info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="img/avatar-blank.jpg">', <Response [200]>)]
 2024-03-28 15:48:42,490 :INFO : test_broken_image :This page has 2 proper images
 2024-03-28 15:49:04,766 :INFO : test_home :Welcome to the-internet
+2024-03-29 14:29:05,773 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-03-29 14:30:12,893 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-03-29 14:30:13,009 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-03-29 15:10:22,541 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-03-29 15:10:22,781 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-03-29 15:46:06,393 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-03-29 15:46:06,499 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-03-29 17:31:29,192 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-03-29 17:31:29,287 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-03-29 17:40:27,352 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-03-29 17:40:27,417 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-03-29 17:58:36,153 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-03-29 17:58:36,213 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-03-29 18:03:01,425 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-03-29 18:03:01,479 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-03-29 18:04:31,726 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-03-29 18:04:31,777 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-03-29 18:05:49,376 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-03-29 18:05:49,421 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-03-29 18:09:12,264 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-03-29 18:09:12,322 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-03-29 18:09:12,561 :INFO : test_challenging_dom :clicked
+2024-04-03 15:36:26,005 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-04-03 15:36:26,125 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-04-03 15:36:26,125 :INFO : test_challenging_dom :using while loop to click blue button to get 'qux' word
+2024-04-03 15:36:26,780 :INFO : test_challenging_dom :clicked
+2024-04-03 15:40:02,179 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-04-03 15:40:02,263 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-04-03 15:40:02,263 :INFO : test_challenging_dom :using while loop to click blue button to get 'qux' word
+2024-04-03 15:40:02,534 :INFO : test_challenging_dom :clicked
+2024-04-03 15:40:02,572 :INFO : test_challenging_dom :Expected text not found in blue button qux
+2024-04-03 15:40:02,803 :INFO : test_challenging_dom :clicked
+2024-04-03 15:40:02,849 :INFO : test_challenging_dom :Expected text not found in blue button qux
+2024-04-03 15:40:03,179 :INFO : test_challenging_dom :clicked
+2024-04-03 15:40:03,227 :INFO : test_challenging_dom :The word is: qux
+2024-04-03 16:35:35,339 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-04-03 16:35:35,434 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-04-03 16:35:35,435 :INFO : test_challenging_dom :using while loop to click blue button to get an expected word
+2024-04-03 16:35:35,865 :INFO : test_challenging_dom :clicked
+2024-04-03 16:35:35,903 :INFO : test_challenging_dom :Expected text not found in blue button qux
+2024-04-03 16:35:36,168 :INFO : test_challenging_dom :clicked
+2024-04-03 16:35:36,230 :INFO : test_challenging_dom :The word is: qux
+2024-04-03 16:43:42,614 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-04-03 16:43:42,799 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-04-03 16:43:42,799 :INFO : test_challenging_dom :using while loop to click blue button to get an expected word
+2024-04-03 16:43:43,142 :INFO : test_challenging_dom :clicked button
+2024-04-03 16:43:43,195 :INFO : test_challenging_dom :Expected text {} not found in blue button qux
+2024-04-03 16:43:43,464 :INFO : test_challenging_dom :clicked button
+2024-04-03 16:43:43,504 :INFO : test_challenging_dom :Expected text {} not found in blue button qux
+2024-04-03 16:43:43,798 :INFO : test_challenging_dom :clicked button
+2024-04-03 16:43:43,846 :INFO : test_challenging_dom :Expected text {} not found in blue button qux
+2024-04-03 16:43:44,110 :INFO : test_challenging_dom :clicked button
+2024-04-03 16:43:44,147 :INFO : test_challenging_dom :The word is: qux
+2024-04-03 16:47:40,022 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-04-03 16:47:40,087 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-04-03 16:47:40,088 :INFO : test_challenging_dom :using while loop to click blue button to get an expected word
+2024-04-03 16:47:40,363 :INFO : test_challenging_dom :clicked button
+2024-04-03 16:47:40,397 :INFO : test_challenging_dom :Expected text qux not found in blue button
+2024-04-03 16:47:40,669 :INFO : test_challenging_dom :clicked button
+2024-04-03 16:47:40,723 :INFO : test_challenging_dom :Expected text qux not found in blue button
+2024-04-03 16:47:40,959 :INFO : test_challenging_dom :clicked button
+2024-04-03 16:47:41,005 :INFO : test_challenging_dom :Expected text qux not found in blue button
+2024-04-03 16:47:41,258 :INFO : test_challenging_dom :clicked button
+2024-04-03 16:47:41,297 :INFO : test_challenging_dom :Expected text qux not found in blue button
+2024-04-03 16:47:41,591 :INFO : test_challenging_dom :clicked button
+2024-04-03 16:47:41,630 :INFO : test_challenging_dom :Expected text qux not found in blue button
+2024-04-03 16:47:41,884 :INFO : test_challenging_dom :clicked button
+2024-04-03 16:47:41,927 :INFO : test_challenging_dom :Expected text qux not found in blue button
+2024-04-03 16:47:42,151 :INFO : test_challenging_dom :clicked button
+2024-04-03 16:47:42,191 :INFO : test_challenging_dom :Got the correct word qux
+2024-04-03 17:29:58,431 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-04-03 17:29:58,639 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-04-03 17:29:58,640 :INFO : test_challenging_dom :using while loop to click several buttons to get an expected word
+2024-04-03 17:29:59,013 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:11:55,070 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-04-03 19:11:55,173 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-04-03 19:11:55,174 :INFO : test_challenging_dom :using while loop to click several buttons to get an expected word
+2024-04-03 19:11:55,720 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:14:05,024 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-04-03 19:14:05,100 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-04-03 19:14:05,101 :INFO : test_challenging_dom :using while loop to click several buttons to get an expected word
+2024-04-03 19:14:05,401 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:14:05,734 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:14:06,040 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:14:06,085 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-03 19:14:06,085 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-03 19:14:08,495 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:14:08,948 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:14:09,567 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:14:09,602 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:14:10,162 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:14:10,701 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:14:11,335 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:14:11,377 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:14:11,708 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:14:12,265 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:14:13,155 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:14:13,183 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:14:13,830 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:14:14,119 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:14:14,400 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:14:14,443 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:14:14,684 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:14:14,967 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:14:15,267 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:14:15,325 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:14:15,566 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:14:15,849 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:14:16,395 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:14:16,433 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-03 19:14:16,433 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-03 19:14:17,338 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:14:17,663 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:14:18,151 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:14:18,199 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:14:18,494 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:14:18,761 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:14:20,625 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:14:20,660 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:14:46,298 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:14:47,069 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:18,649 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:18,696 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-03 19:19:18,696 :INFO : test_challenging_dom :Got the correct red word bar
+2024-04-03 19:19:18,696 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-03 19:19:19,275 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:19,666 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:20,631 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:20,668 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:21,928 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:23,218 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:26,360 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:26,392 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-03 19:19:26,393 :INFO : test_challenging_dom :Got the correct red word bar
+2024-04-03 19:19:26,393 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-03 19:19:26,798 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:27,267 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:28,124 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:28,157 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:28,553 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:28,840 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:29,392 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:29,429 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:29,686 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:29,977 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:30,272 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:30,313 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:30,564 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:30,919 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:31,246 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:31,287 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:31,597 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:31,887 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:32,264 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:32,313 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:32,829 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:33,291 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:33,989 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:34,036 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-03 19:19:34,037 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-03 19:19:34,775 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:35,408 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:36,177 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:36,238 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:36,508 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:36,799 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:37,110 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:37,165 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-03 19:19:37,166 :INFO : test_challenging_dom :Got the correct red word bar
+2024-04-03 19:19:37,166 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-03 19:19:37,411 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:37,706 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:38,012 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:38,049 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-03 19:19:38,049 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-03 19:19:38,289 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:38,663 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:39,075 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:39,125 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:39,502 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:39,835 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:40,234 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:40,269 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:40,636 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:41,005 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:41,321 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:41,351 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:41,627 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:41,938 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:42,208 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:42,255 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-03 19:19:42,256 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-03 19:19:42,565 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:42,835 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:43,166 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:43,201 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:43,871 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:44,733 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:45,269 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:45,306 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:45,616 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:45,915 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:46,201 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:46,235 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-03 19:19:46,236 :INFO : test_challenging_dom :Got the correct red word bar
+2024-04-03 19:19:46,236 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-03 19:19:46,734 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:47,084 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:47,386 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:47,431 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:48,066 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:48,413 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:48,865 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:48,960 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:49,301 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:49,655 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:49,988 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:50,034 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-03 19:19:50,035 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-03 19:19:50,710 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:51,105 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:51,931 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:51,968 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:52,376 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:52,698 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:53,031 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:53,068 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:53,424 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:53,731 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:54,148 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:54,186 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-03 19:19:54,186 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-03 19:19:54,431 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:54,744 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:55,084 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:55,128 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-03 19:19:55,129 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-03 19:19:55,395 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:55,795 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:56,294 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:56,329 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-03 19:19:56,329 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-03 19:19:56,727 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:57,014 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:57,312 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:57,343 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:57,629 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:58,023 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:58,324 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:58,368 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:58,645 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:19:58,996 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:19:59,362 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:19:59,398 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:19:59,695 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:20:00,019 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:20:00,296 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:20:00,358 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:20:00,727 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:20:01,032 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:20:01,344 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:20:01,382 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:20:01,857 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:20:02,195 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:20:02,659 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:20:02,702 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:20:02,940 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:20:03,379 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:20:03,760 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:20:03,802 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-03 19:20:03,802 :INFO : test_challenging_dom :Got the correct red word bar
+2024-04-03 19:20:03,802 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-03 19:20:04,088 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:20:04,390 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:20:04,676 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:20:04,722 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-03 19:20:05,028 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:20:05,427 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:35:07,958 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-04-03 19:35:08,040 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-04-03 19:35:08,041 :INFO : test_challenging_dom :using while loop to click several buttons to get an expected word
+2024-04-03 19:35:09,600 :INFO : test_challenging_dom :clicked blue button
+2024-04-03 19:35:09,648 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-03 19:35:09,962 :INFO : test_challenging_dom :clicked red button
+2024-04-03 19:35:10,014 :INFO : test_challenging_dom :Got the correct red word bar
+2024-04-03 19:35:10,918 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:35:10,957 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-03 19:35:11,240 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:35:11,291 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-03 19:35:11,642 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:35:11,676 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-03 19:35:12,060 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:35:12,109 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-03 19:35:12,345 :INFO : test_challenging_dom :clicked green button
+2024-04-03 19:35:12,397 :INFO : test_challenging_dom :Got the correct green word foo
+2024-04-04 15:46:13,077 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-04 15:46:13,221 :INFO : test_checkboxes :page title: None
+2024-04-04 15:52:25,578 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-04 15:52:25,690 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-04 16:49:55,352 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-04 16:49:55,493 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-04 17:04:54,295 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-04 17:04:54,395 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-04 17:04:54,395 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-04 17:12:05,885 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-04 17:12:05,974 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-04 17:12:05,974 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-04 17:18:14,733 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-04 17:18:14,819 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-04 17:18:14,819 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-04 17:20:24,967 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-04 17:20:25,079 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-04 17:20:25,079 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-04 17:20:25,301 :INFO : test_checkboxes :Checkbox 1 selected status: False
+2024-04-04 17:20:25,309 :INFO : test_checkboxes :Checkbox 2 selected status: True
+2024-04-06 21:06:23,516 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-06 21:06:23,682 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-06 21:06:23,683 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-06 21:06:23,721 :INFO : test_checkboxes :Checkbox 1 selected status: False
+2024-04-06 21:06:23,739 :INFO : test_checkboxes :Checkbox 2 selected status: True
+2024-04-06 21:09:58,657 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-06 21:09:58,718 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-06 21:09:58,719 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-06 21:09:58,765 :INFO : test_checkboxes :Checkbox 1 selected status: False
+2024-04-06 21:09:58,777 :INFO : test_checkboxes :Checkbox 2 selected status: True
+2024-04-06 21:22:54,364 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-06 21:22:54,492 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-06 21:22:54,493 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-06 21:22:54,564 :INFO : test_checkboxes :Checkbox 1 selected status: False
+2024-04-06 21:22:54,588 :INFO : test_checkboxes :Checkbox 2 selected status: True
+2024-04-06 21:22:54,727 :INFO : test_checkboxes :checkbox1 selected status: True
+2024-04-06 21:24:36,965 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-06 21:24:37,057 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-06 21:24:37,057 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-06 21:24:37,087 :INFO : test_checkboxes :Checkbox 1 selected status: False
+2024-04-06 21:24:37,093 :INFO : test_checkboxes :Checkbox 2 selected status: True
+2024-04-06 21:24:37,192 :INFO : test_checkboxes :Checkbox1 selected status: True
+2024-04-06 21:27:35,991 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-06 21:27:36,072 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-06 21:27:36,072 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-06 21:27:36,093 :INFO : test_checkboxes :Checkbox 1 selected status: False
+2024-04-06 21:27:36,107 :INFO : test_checkboxes :Checkbox 2 selected status: True
+2024-04-06 21:27:36,224 :INFO : test_checkboxes :Checkbox1 selected status: True
+2024-04-06 21:35:29,609 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-06 21:35:29,690 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-06 21:35:29,690 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-06 21:35:29,715 :INFO : test_checkboxes :Checkbox 1 selected status: False
+2024-04-06 21:35:29,731 :INFO : test_checkboxes :Checkbox 2 selected status: True
+2024-04-06 21:35:29,835 :INFO : test_checkboxes :Checkbox1 selected status: True
+2024-04-06 21:37:10,096 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-06 21:37:10,174 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-06 21:37:10,174 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-06 21:37:10,204 :INFO : test_checkboxes :Checkbox 1 selected status: False
+2024-04-06 21:37:10,210 :INFO : test_checkboxes :Checkbox 2 selected status: True
+2024-04-06 21:37:10,392 :INFO : test_checkboxes :Checkbox1 selected status: False
+2024-04-06 22:08:42,098 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-06 22:08:42,252 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-06 22:08:42,252 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-06 22:08:42,424 :INFO : test_checkboxes :Checkbox 1 selected status: False
+2024-04-06 22:08:42,432 :INFO : test_checkboxes :Checkbox 2 selected status: True
+2024-04-06 22:08:42,615 :INFO : test_checkboxes :Checkbox1 selected status: True
+2024-04-06 22:08:42,728 :INFO : test_checkboxes :Checkbox2 selected status: False
+2024-04-06 22:12:35,123 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-06 22:12:35,199 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-06 22:12:35,199 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-06 22:12:35,229 :INFO : test_checkboxes :Checkbox 1 selected status: False
+2024-04-06 22:12:35,235 :INFO : test_checkboxes :Checkbox 2 selected status: True
+2024-04-06 22:12:35,341 :INFO : test_checkboxes :Checkbox1 selected status: True
+2024-04-06 22:12:35,515 :INFO : test_checkboxes :Checkbox2 selected status: True
+2024-04-06 22:32:40,774 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-06 22:32:40,877 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-06 22:32:40,878 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-06 22:32:40,924 :INFO : test_checkboxes :Checkbox 1 selected status: False
+2024-04-06 22:32:40,933 :INFO : test_checkboxes :Checkbox 2 selected status: True
+2024-04-06 22:32:41,078 :INFO : test_checkboxes :Checkbox1 selected status: True
+2024-04-06 22:32:41,192 :INFO : test_checkboxes :Checkbox2 selected status: False
+2024-04-06 23:24:20,184 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-04-06 23:24:20,331 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-04-06 23:24:20,331 :INFO : test_challenging_dom :using while loop to click several buttons to get an expected word
+2024-04-06 23:24:20,777 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:24:20,812 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-06 23:24:21,263 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:24:21,297 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-06 23:24:21,577 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:24:21,614 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-06 23:24:22,123 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:24:22,175 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-06 23:24:22,445 :INFO : test_challenging_dom :clicked red button
+2024-04-06 23:24:22,482 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-06 23:24:22,809 :INFO : test_challenging_dom :clicked red button
+2024-04-06 23:24:22,840 :INFO : test_challenging_dom :Got the correct red word bar
+2024-04-06 23:24:23,118 :INFO : test_challenging_dom :clicked green button
+2024-04-06 23:24:23,159 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-06 23:24:23,567 :INFO : test_challenging_dom :clicked green button
+2024-04-06 23:24:23,600 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-06 23:24:23,882 :INFO : test_challenging_dom :clicked green button
+2024-04-06 23:24:23,913 :INFO : test_challenging_dom :Got the correct green word foo
+2024-04-06 23:24:24,010 :INFO : test_challenging_dom :Verify if edit button is enabled
+2024-04-06 23:28:05,939 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-04-06 23:28:06,010 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-04-06 23:28:06,010 :INFO : test_challenging_dom :using while loop to click several buttons to get an expected word
+2024-04-06 23:28:06,283 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:28:06,321 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-06 23:28:06,551 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:28:06,589 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-06 23:28:06,944 :INFO : test_challenging_dom :clicked red button
+2024-04-06 23:28:06,982 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-06 23:28:07,349 :INFO : test_challenging_dom :clicked red button
+2024-04-06 23:28:07,385 :INFO : test_challenging_dom :Got the correct red word bar
+2024-04-06 23:28:08,073 :INFO : test_challenging_dom :clicked green button
+2024-04-06 23:28:08,118 :INFO : test_challenging_dom :Got the correct green word foo
+2024-04-06 23:28:08,118 :INFO : test_challenging_dom :Verify if edit button is enabled
+2024-04-06 23:39:14,642 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-04-06 23:39:14,711 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-04-06 23:39:14,712 :INFO : test_challenging_dom :using while loop to click several buttons to get an expected word
+2024-04-06 23:39:15,022 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:39:15,068 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-06 23:39:15,305 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:39:15,342 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-06 23:39:15,591 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:39:15,636 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-06 23:39:15,852 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:39:15,903 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-06 23:39:16,094 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:39:16,156 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-06 23:39:16,386 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:39:16,424 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-06 23:39:16,656 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:39:16,698 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-06 23:39:16,955 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:39:16,989 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-06 23:39:17,221 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:39:17,257 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-06 23:39:17,488 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:39:17,527 :INFO : test_challenging_dom :Expected blue text qux not found in blue button
+2024-04-06 23:39:17,752 :INFO : test_challenging_dom :clicked blue button
+2024-04-06 23:39:17,792 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-06 23:39:18,023 :INFO : test_challenging_dom :clicked red button
+2024-04-06 23:39:18,068 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-06 23:39:18,293 :INFO : test_challenging_dom :clicked red button
+2024-04-06 23:39:18,335 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-06 23:39:18,583 :INFO : test_challenging_dom :clicked red button
+2024-04-06 23:39:18,624 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-06 23:39:18,958 :INFO : test_challenging_dom :clicked red button
+2024-04-06 23:39:18,998 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-06 23:39:19,222 :INFO : test_challenging_dom :clicked red button
+2024-04-06 23:39:19,257 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-06 23:39:19,486 :INFO : test_challenging_dom :clicked red button
+2024-04-06 23:39:19,524 :INFO : test_challenging_dom :Got the correct red word bar
+2024-04-06 23:39:19,754 :INFO : test_challenging_dom :clicked green button
+2024-04-06 23:39:19,806 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-06 23:39:20,021 :INFO : test_challenging_dom :clicked green button
+2024-04-06 23:39:20,076 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-06 23:39:20,306 :INFO : test_challenging_dom :clicked green button
+2024-04-06 23:39:20,345 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-06 23:39:20,560 :INFO : test_challenging_dom :clicked green button
+2024-04-06 23:39:20,602 :INFO : test_challenging_dom :Got the correct green word foo
+2024-04-06 23:39:20,603 :INFO : test_challenging_dom :Verify if edit button is enabled
+2024-04-06 23:39:20,634 :INFO : test_challenging_dom :edit button is enabled
+2024-04-08 13:36:04,471 :INFO : test_challenging_dom :Opened Challenging DOM Page
+2024-04-08 13:36:04,603 :INFO : test_challenging_dom :page title: Challenging DOM
+2024-04-08 13:36:04,604 :INFO : test_challenging_dom :using while loop to click several buttons to get an expected word
+2024-04-08 13:36:05,572 :INFO : test_challenging_dom :clicked blue button
+2024-04-08 13:36:05,711 :INFO : test_challenging_dom :Got the correct blue word qux
+2024-04-08 13:36:06,623 :INFO : test_challenging_dom :clicked red button
+2024-04-08 13:36:06,757 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-08 13:36:07,479 :INFO : test_challenging_dom :clicked red button
+2024-04-08 13:36:07,593 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-08 13:36:08,604 :INFO : test_challenging_dom :clicked red button
+2024-04-08 13:36:08,679 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-08 13:36:10,237 :INFO : test_challenging_dom :clicked red button
+2024-04-08 13:36:10,332 :INFO : test_challenging_dom :Expected red text bar not found in green button
+2024-04-08 13:36:11,378 :INFO : test_challenging_dom :clicked red button
+2024-04-08 13:36:11,536 :INFO : test_challenging_dom :Got the correct red word bar
+2024-04-08 13:36:12,189 :INFO : test_challenging_dom :clicked green button
+2024-04-08 13:36:12,264 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-08 13:36:12,962 :INFO : test_challenging_dom :clicked green button
+2024-04-08 13:36:13,061 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-08 13:36:26,091 :INFO : test_challenging_dom :clicked green button
+2024-04-08 13:36:26,229 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-08 13:36:29,522 :INFO : test_challenging_dom :clicked green button
+2024-04-08 13:36:29,621 :INFO : test_challenging_dom :Expected green text foo not found in green button
+2024-04-08 13:36:30,902 :INFO : test_challenging_dom :clicked green button
+2024-04-08 13:36:31,034 :INFO : test_challenging_dom :Got the correct green word foo
+2024-04-08 13:36:31,035 :INFO : test_challenging_dom :Verify if edit button is enabled
+2024-04-08 13:36:31,137 :INFO : test_challenging_dom :edit button is enabled
+2024-04-08 13:36:31,138 :INFO : test_challenging_dom :Verify if delete button is enabled
+2024-04-08 13:36:31,213 :INFO : test_challenging_dom :delete button is enabled
+2024-04-09 15:03:32,726 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-09 15:03:32,998 :INFO : test_context_menu :Page Title Context Menu: 
+2024-04-09 15:23:36,568 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-09 15:23:36,728 :INFO : test_context_menu :Page Title: Context Menu
+2024-04-09 15:24:08,215 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-09 15:24:08,293 :INFO : test_context_menu :Page Title: Context Menu
+2024-04-09 15:46:35,888 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-09 15:46:35,974 :INFO : test_context_menu :Page Title: Context Menu
+2024-04-09 15:50:56,354 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-09 15:50:56,452 :INFO : test_context_menu :Page Title: Context Menu
+2024-04-09 15:54:15,094 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-09 15:54:15,460 :INFO : test_context_menu :Page Title: Context Menu
+2024-04-09 16:01:12,185 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-09 16:01:12,272 :INFO : test_context_menu :Page Title: Context Menu
+2024-04-09 16:06:50,853 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-09 16:06:50,941 :INFO : test_context_menu :Page Title: Context Menu
+2024-04-09 16:38:41,883 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-09 16:38:42,053 :INFO : test_context_menu :Page Title: Context Menu
+2024-04-09 16:38:42,397 :INFO : test_context_menu :Performed a right click inside display box
+2024-04-09 16:38:42,399 :INFO : test_context_menu :Switching to pop up alert
+2024-04-09 16:38:42,408 :INFO : test_context_menu :You selected a context menu
+2024-04-09 16:38:42,433 :INFO : test_context_menu :closed pop up alert
+2024-04-09 17:01:03,700 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-09 17:01:03,867 :INFO : test_context_menu :Page Title: Context Menu
+2024-04-09 17:01:04,163 :INFO : test_context_menu :Performed a right click inside display box
+2024-04-09 17:01:04,165 :INFO : test_context_menu :Switching to pop up alert
+2024-04-09 17:01:04,169 :INFO : test_context_menu :alert message: You selected a context menu
+2024-04-09 17:01:04,172 :INFO : test_context_menu :closed pop up alert
+2024-04-09 17:03:47,863 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-09 17:03:47,960 :INFO : test_context_menu :Page Title: Context Menu
+2024-04-09 17:03:48,266 :INFO : test_context_menu :Performed a right click inside display box
+2024-04-09 17:03:48,267 :INFO : test_context_menu :Switching to pop up alert
+2024-04-09 17:03:48,269 :INFO : test_context_menu :alert message: You selected a context menu
+2024-04-09 17:03:48,275 :INFO : test_context_menu :closed pop up alert
+2024-04-09 17:11:20,164 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-09 17:11:20,273 :INFO : test_context_menu :Page Title: Context Menu
+2024-04-09 17:11:20,585 :INFO : test_context_menu :Performed a right click inside display box
+2024-04-09 17:11:20,586 :INFO : test_context_menu :Switching to pop up alert
+2024-04-09 17:11:20,589 :INFO : test_context_menu :alert message: You selected a context menu
+2024-04-09 17:11:20,592 :INFO : test_context_menu :closed pop up alert
+2024-04-09 17:11:21,113 :INFO : test_context_menu :Element is not present
+2024-04-09 17:14:20,539 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-09 17:14:20,692 :INFO : test_context_menu :Page Title: Context Menu
+2024-04-09 17:14:21,013 :INFO : test_context_menu :Performed a right click inside display box
+2024-04-09 17:14:21,016 :INFO : test_context_menu :Switching to pop up alert
+2024-04-09 17:14:21,019 :INFO : test_context_menu :alert message: You selected a context menu
+2024-04-09 17:14:21,022 :INFO : test_context_menu :closed pop up alert
+2024-04-09 17:14:31,514 :INFO : test_context_menu :Element is present
+2024-04-09 17:14:36,528 :INFO : test_context_menu :Element is present
+2024-04-09 17:19:17,357 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-09 17:19:17,437 :INFO : test_context_menu :Page Title: Context Menu
+2024-04-09 17:19:17,726 :INFO : test_context_menu :Performed a right click inside display box
+2024-04-09 17:19:17,727 :INFO : test_context_menu :Switching to pop up alert
+2024-04-09 17:19:17,729 :INFO : test_context_menu :alert message: You selected a context menu
+2024-04-09 17:19:17,736 :INFO : test_context_menu :closed pop up alert
+2024-04-09 17:19:33,557 :INFO : test_context_menu :Element is present
+2024-04-09 17:19:38,583 :INFO : test_context_menu :Element is present
+2024-04-09 17:39:05,256 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-09 17:39:05,361 :INFO : test_context_menu :Page Title: Context Menu
+2024-04-09 17:39:05,660 :INFO : test_context_menu :Performed a right click inside display box
+2024-04-09 17:39:05,661 :INFO : test_context_menu :Switching to pop up alert
+2024-04-09 17:39:05,667 :INFO : test_context_menu :alert message: You selected a context menu
+2024-04-09 17:39:05,681 :INFO : test_context_menu :closed pop up alert
+2024-04-09 17:39:21,501 :INFO : test_context_menu :Element is present
+2024-04-09 17:39:26,517 :INFO : test_context_menu :Element is present
+2024-04-10 14:37:00,813 :INFO : test_digest_authentication :Opened Digest Authentication Page
+2024-04-10 15:14:12,525 :INFO : test_basicauth :open basic auth page link
+2024-04-10 15:14:12,647 :INFO : test_basicauth :Page Title: Basic Auth
+2024-04-10 15:14:39,486 :INFO : test_basicauth :open basic auth page link
+2024-04-10 15:14:39,555 :INFO : test_basicauth :Page Title: Basic Auth
+2024-04-10 15:14:39,582 :INFO : test_basicauth :Congratulations! You must have the proper credentials.
+2024-04-10 15:15:51,098 :INFO : test_basicauth :open basic auth page link
+2024-04-10 15:15:51,175 :INFO : test_basicauth :Page Title: Basic Auth
+2024-04-10 15:15:51,197 :INFO : test_basicauth :Page message: Congratulations! You must have the proper credentials.
+2024-04-10 15:16:45,752 :INFO : test_digest_authentication :Opened Digest Authentication Page
+2024-04-10 15:17:29,332 :INFO : test_digest_authentication :Opened Digest Authentication Page
+2024-04-10 15:17:29,424 :INFO : test_digest_authentication :Page Title: Digest Auth
+2024-04-10 15:17:29,457 :INFO : test_digest_authentication :Page Message: Congratulations! You must have the proper credentials.
+2024-04-10 15:18:05,220 :INFO : test_basicauth :open basic auth page link
+2024-04-10 15:18:05,290 :INFO : test_basicauth :Page Title: Basic Auth
+2024-04-10 15:18:05,323 :INFO : test_basicauth :Page Message: Congratulations! You must have the proper credentials.
+2024-04-12 19:57:27,607 :INFO : test_context_menu :Opened Context Menu Page
+2024-04-12 19:57:27,945 :INFO : test_context_menu :Page Title: Context Menu
+2024-04-12 19:57:28,534 :INFO : test_context_menu :Performed a right click inside display box
+2024-04-12 19:57:28,572 :INFO : test_context_menu :Switching to pop up alert
+2024-04-12 19:57:28,574 :INFO : test_context_menu :alert message: You selected a context menu
+2024-04-12 19:57:28,576 :INFO : test_context_menu :closed pop up alert
+2024-04-12 19:57:39,368 :INFO : test_context_menu :Element is present
+2024-04-12 19:57:39,376 :INFO : test_context_menu :Element is present
+2024-04-12 20:10:59,536 :INFO : test_drag_and_drop :Opened Drag and Drop Page
+2024-04-12 20:10:59,650 :INFO : test_drag_and_drop :Page Title: Drag and Drop
+2024-04-12 20:11:53,087 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-12 20:11:53,194 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-12 20:24:24,531 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-12 20:24:24,617 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-12 20:24:24,637 :INFO : test_disappearing_elements :Home tab is visible
+2024-04-12 20:33:51,871 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-12 20:33:51,944 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-12 20:48:30,099 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-12 20:48:30,167 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-12 20:48:30,201 :INFO : test_disappearing_elements :Home tab is not visible
+2024-04-12 20:48:30,201 :INFO : test_disappearing_elements :Tab: Home
+2024-04-12 20:52:28,536 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-12 20:52:28,629 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-12 20:52:28,649 :INFO : test_disappearing_elements :Home tab is not visible
+2024-04-12 20:52:28,669 :INFO : test_disappearing_elements :Tab: Home
+2024-04-12 20:58:23,477 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-12 20:58:23,607 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-12 20:58:23,628 :INFO : test_disappearing_elements :Home tab is not visible
+2024-04-12 20:58:23,642 :INFO : test_disappearing_elements :Tab: Home
+2024-04-12 21:01:51,442 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-12 21:01:51,544 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-12 21:01:51,569 :INFO : test_disappearing_elements :Home tab is not visible
+2024-04-12 21:01:51,598 :INFO : test_disappearing_elements :Tab: Home
+2024-04-12 21:08:35,129 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-12 21:08:35,233 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-12 21:08:35,270 :INFO : test_disappearing_elements :Tab: Home
+2024-04-15 13:33:04,990 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-15 13:33:05,075 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-15 13:33:05,089 :INFO : test_disappearing_elements :Home tab is not visible
+2024-04-15 13:33:05,114 :INFO : test_disappearing_elements :Tab: Home
+2024-04-15 13:38:53,255 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-15 13:38:53,339 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-15 13:38:54,653 :INFO : test_disappearing_elements :Home tab is visible
+2024-04-15 13:38:54,677 :INFO : test_disappearing_elements :Tab: Home
+2024-04-15 13:49:53,570 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-15 13:49:53,649 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-15 13:49:53,691 :INFO : test_disappearing_elements :Home tab is visible
+2024-04-15 13:49:53,711 :INFO : test_disappearing_elements :Tab: Home
+2024-04-15 13:49:53,739 :INFO : test_disappearing_elements :About tab is visible
+2024-04-15 13:49:53,760 :INFO : test_disappearing_elements :Tab: About
+2024-04-15 13:49:53,794 :INFO : test_disappearing_elements :Contact Us tab is visible
+2024-04-15 13:49:53,814 :INFO : test_disappearing_elements :Tab: Contact Us
+2024-04-15 14:01:57,214 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-15 14:01:57,314 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-15 14:01:57,438 :INFO : test_disappearing_elements :Home tab is visible
+2024-04-15 14:01:57,464 :INFO : test_disappearing_elements :Tab: Home
+2024-04-15 14:01:57,506 :INFO : test_disappearing_elements :About tab is visible
+2024-04-15 14:01:57,540 :INFO : test_disappearing_elements :Tab: About
+2024-04-15 14:01:57,568 :INFO : test_disappearing_elements :Contact Us tab is visible
+2024-04-15 14:01:57,587 :INFO : test_disappearing_elements :Tab: Contact Us
+2024-04-15 14:01:57,612 :INFO : test_disappearing_elements :Portfolio tab is visible
+2024-04-15 14:01:57,632 :INFO : test_disappearing_elements :Tab: Portfolio
+2024-04-15 14:01:57,655 :INFO : test_disappearing_elements :Gallery tab is visible
+2024-04-15 14:01:57,675 :INFO : test_disappearing_elements :Tab: Gallery
+2024-04-15 14:10:32,337 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-15 14:10:32,423 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-15 14:10:32,459 :INFO : test_disappearing_elements :Home tab is visible
+2024-04-15 14:10:32,484 :INFO : test_disappearing_elements :Tab: Home
+2024-04-15 14:10:32,520 :INFO : test_disappearing_elements :About tab is visible
+2024-04-15 14:10:32,546 :INFO : test_disappearing_elements :Tab: About
+2024-04-15 14:10:32,576 :INFO : test_disappearing_elements :Contact Us tab is visible
+2024-04-15 14:10:32,595 :INFO : test_disappearing_elements :Tab: Contact Us
+2024-04-15 14:10:32,618 :INFO : test_disappearing_elements :Portfolio tab is visible
+2024-04-15 14:10:32,638 :INFO : test_disappearing_elements :Tab: Portfolio
+2024-04-15 14:10:32,654 :INFO : test_disappearing_elements :Gallery tab is not visible
+2024-04-15 14:12:37,997 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-15 14:12:38,086 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-15 14:12:38,125 :INFO : test_disappearing_elements :Home tab is visible
+2024-04-15 14:12:38,149 :INFO : test_disappearing_elements :Tab: Home
+2024-04-15 14:12:38,184 :INFO : test_disappearing_elements :About tab is visible
+2024-04-15 14:12:38,203 :INFO : test_disappearing_elements :Tab: About
+2024-04-15 14:12:38,231 :INFO : test_disappearing_elements :Contact Us tab is visible
+2024-04-15 14:12:38,252 :INFO : test_disappearing_elements :Tab: Contact Us
+2024-04-15 14:12:38,276 :INFO : test_disappearing_elements :Portfolio tab is visible
+2024-04-15 14:12:38,295 :INFO : test_disappearing_elements :Tab: Portfolio
+2024-04-15 14:12:38,317 :INFO : test_disappearing_elements :Gallery tab is not visible
+2024-04-15 14:17:39,202 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-15 14:17:39,286 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-15 14:17:39,324 :INFO : test_disappearing_elements :Home tab is visible
+2024-04-15 14:17:39,344 :INFO : test_disappearing_elements :Tab: Home
+2024-04-15 14:17:39,376 :INFO : test_disappearing_elements :About tab is visible
+2024-04-15 14:17:39,401 :INFO : test_disappearing_elements :Tab: About
+2024-04-15 14:17:39,432 :INFO : test_disappearing_elements :Contact Us tab is visible
+2024-04-15 14:17:39,455 :INFO : test_disappearing_elements :Tab: Contact Us
+2024-04-15 14:17:39,480 :INFO : test_disappearing_elements :Portfolio tab is visible
+2024-04-15 14:17:39,499 :INFO : test_disappearing_elements :Tab: Portfolio
+2024-04-15 14:17:39,516 :INFO : test_disappearing_elements :Gallery tab is not visible
+2024-04-15 14:17:53,707 :INFO : test_disappearing_elements :Opened Disappearing Elements Page
+2024-04-15 14:17:53,780 :INFO : test_disappearing_elements :Page Title: Disappearing Elements
+2024-04-15 14:17:53,812 :INFO : test_disappearing_elements :Home tab is visible
+2024-04-15 14:17:53,832 :INFO : test_disappearing_elements :Tab: Home
+2024-04-15 14:17:53,859 :INFO : test_disappearing_elements :About tab is visible
+2024-04-15 14:17:53,878 :INFO : test_disappearing_elements :Tab: About
+2024-04-15 14:17:53,906 :INFO : test_disappearing_elements :Contact Us tab is visible
+2024-04-15 14:17:53,926 :INFO : test_disappearing_elements :Tab: Contact Us
+2024-04-15 14:17:53,951 :INFO : test_disappearing_elements :Portfolio tab is visible
+2024-04-15 14:17:53,970 :INFO : test_disappearing_elements :Tab: Portfolio
+2024-04-15 14:17:53,995 :INFO : test_disappearing_elements :Gallery tab is visible
+2024-04-15 14:17:54,017 :INFO : test_disappearing_elements :Tab: Gallery
+2024-04-15 14:34:31,427 :INFO : test_drag_and_drop :Opened Drag and Drop Page
+2024-04-15 14:34:31,519 :INFO : test_drag_and_drop :Page Title: Drag and Drop
+2024-04-15 14:41:36,536 :INFO : test_drag_and_drop :Opened Drag and Drop Page
+2024-04-15 14:41:36,636 :INFO : test_drag_and_drop :Page Title: Drag and Drop
+2024-04-15 16:35:08,511 :INFO : test_drag_and_drop :Opened Drag and Drop Page
+2024-04-15 16:35:08,831 :INFO : test_drag_and_drop :Page Title: Drag and Drop
+2024-04-15 16:36:21,967 :INFO : test_drag_and_drop :Opened Drag and Drop Page
+2024-04-15 16:36:22,036 :INFO : test_drag_and_drop :Page Title: Drag and Drop
+2024-04-15 16:43:04,061 :INFO : test_drag_and_drop :Opened Drag and Drop Page
+2024-04-15 16:43:04,115 :INFO : test_drag_and_drop :Page Title: Drag and Drop
+2024-04-15 16:43:33,108 :INFO : test_drag_and_drop :Opened Drag and Drop Page
+2024-04-15 16:43:33,164 :INFO : test_drag_and_drop :Page Title: Drag and Drop
+2024-04-15 16:46:03,179 :INFO : test_drag_and_drop :Opened Drag and Drop Page
+2024-04-15 16:46:03,286 :INFO : test_drag_and_drop :Page Title: Drag and Drop
+2024-04-15 16:48:07,434 :INFO : test_drag_and_drop :Opened Drag and Drop Page
+2024-04-15 16:48:07,488 :INFO : test_drag_and_drop :Page Title: Drag and Drop
+2024-04-15 17:05:34,703 :INFO : test_drag_and_drop :Opened Drag and Drop Page
+2024-04-15 17:05:34,771 :INFO : test_drag_and_drop :Page Title: Drag and Drop
+2024-04-15 17:08:58,506 :INFO : test_drag_and_drop :Opened Drag and Drop Page
+2024-04-15 17:08:58,581 :INFO : test_drag_and_drop :Page Title: Drag and Drop
+2024-04-15 17:09:47,543 :INFO : test_drag_and_drop :Opened Drag and Drop Page
+2024-04-15 17:09:47,612 :INFO : test_drag_and_drop :Page Title: Drag and Drop
+2024-04-15 17:10:50,481 :INFO : test_drag_and_drop :Opened Drag and Drop Page
+2024-04-15 17:10:50,547 :INFO : test_drag_and_drop :Page Title: Drag and Drop
+2024-04-15 17:15:01,153 :INFO : test_drag_and_drop :Opened Drag and Drop Page
+2024-04-15 17:15:01,212 :INFO : test_drag_and_drop :Page Title: Drag and Drop
+2024-04-15 17:15:01,775 :INFO : test_drag_and_drop :Dragging column A into second column
+2024-04-15 17:15:02,330 :INFO : test_drag_and_drop :Dragging column B into first column
+2024-04-23 14:39:30,274 :INFO : test_dropdown :Opened Dropdown Page
+2024-04-23 14:39:30,683 :INFO : test_dropdown :Page Title: Dropdown List
+2024-04-23 14:53:16,020 :INFO : test_dropdown :Opened Dropdown Page
+2024-04-23 14:53:16,090 :INFO : test_dropdown :Page Title: Dropdown List
+2024-04-23 14:55:57,865 :INFO : test_dropdown :Opened Dropdown Page
+2024-04-23 14:55:57,934 :INFO : test_dropdown :Page Title: Dropdown List
+2024-04-23 14:56:35,285 :INFO : test_dropdown :Opened Dropdown Page
+2024-04-23 14:56:35,356 :INFO : test_dropdown :Page Title: Dropdown List
+2024-04-23 15:00:41,837 :INFO : test_dropdown :Opened Dropdown Page
+2024-04-23 15:00:41,905 :INFO : test_dropdown :Page Title: Dropdown List
+2024-04-23 15:08:07,552 :INFO : test_dropdown :Opened Dropdown Page
+2024-04-23 15:08:07,617 :INFO : test_dropdown :Page Title: Dropdown List
+2024-04-23 15:11:21,707 :INFO : test_dropdown :Opened Dropdown Page
+2024-04-23 15:11:21,766 :INFO : test_dropdown :Page Title: Dropdown List
+2024-04-23 15:11:23,988 :INFO : test_dropdown :Option selected: Option 2
+2024-04-23 15:13:14,278 :INFO : test_dropdown :Opened Dropdown Page
+2024-04-23 15:13:14,371 :INFO : test_dropdown :Page Title: Dropdown List
+2024-04-23 15:13:14,588 :INFO : test_dropdown :Option selected: Option 2
+2024-04-23 15:36:38,780 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-04-23 15:36:38,836 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-04-30 16:15:54,630 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 16:19:36,574 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-04-30 16:19:36,749 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-04-30 16:19:51,466 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 16:20:57,019 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 16:22:39,938 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 16:22:40,020 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-04-30 18:14:49,641 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 18:14:49,709 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-04-30 18:25:29,926 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 18:25:29,968 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-04-30 18:25:30,030 :INFO : test_dynamic_controls :checkbox is clicked
+2024-04-30 18:27:56,199 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-30 18:27:56,251 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-30 18:27:56,251 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-30 18:27:56,284 :INFO : test_checkboxes :Checkbox 1 selected status: False
+2024-04-30 18:27:56,289 :INFO : test_checkboxes :Checkbox 2 selected status: True
+2024-04-30 18:27:56,360 :INFO : test_checkboxes :Checkbox1 selected status: True
+2024-04-30 18:27:56,427 :INFO : test_checkboxes :Checkbox2 selected status: False
+2024-04-30 18:28:07,708 :INFO : test_checkboxes :Opened Checkboxes Page
+2024-04-30 18:28:07,809 :INFO : test_checkboxes :page title: Checkboxes
+2024-04-30 18:28:07,809 :INFO : test_checkboxes :verify if the checkboxes are unexpectedly selected initially
+2024-04-30 18:28:07,832 :INFO : test_checkboxes :Checkbox 1 selected status: False
+2024-04-30 18:28:07,840 :INFO : test_checkboxes :Checkbox 2 selected status: True
+2024-04-30 18:28:07,918 :INFO : test_checkboxes :Checkbox1 selected status: True
+2024-04-30 18:28:07,987 :INFO : test_checkboxes :Checkbox2 selected status: False
+2024-04-30 18:37:01,599 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 18:37:01,644 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-04-30 18:37:01,709 :INFO : test_dynamic_controls :checkbox is clicked
+2024-04-30 21:43:31,180 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 21:43:32,127 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-04-30 21:43:32,237 :INFO : test_dynamic_controls :checkbox is clicked
+2024-04-30 21:44:53,457 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 21:44:53,520 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-04-30 21:44:53,613 :INFO : test_dynamic_controls :checkbox is clicked
+2024-04-30 21:47:08,076 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 21:47:08,156 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-04-30 21:47:08,324 :INFO : test_dynamic_controls :checkbox is clicked
+2024-04-30 21:56:17,041 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 21:56:17,183 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-04-30 21:56:17,398 :INFO : test_dynamic_controls :checkbox is clicked
+2024-04-30 21:56:17,509 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-04-30 21:57:53,275 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 21:57:53,317 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-04-30 21:57:53,383 :INFO : test_dynamic_controls :checkbox is clicked
+2024-04-30 21:57:53,463 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-04-30 21:59:08,107 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 21:59:08,152 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-04-30 21:59:08,217 :INFO : test_dynamic_controls :checkbox is clicked
+2024-04-30 21:59:08,299 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-04-30 22:03:17,267 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 22:03:17,322 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-04-30 22:03:17,404 :INFO : test_dynamic_controls :checkbox is clicked
+2024-04-30 22:03:17,496 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-04-30 22:03:50,070 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 22:03:50,118 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-04-30 22:03:50,189 :INFO : test_dynamic_controls :checkbox is clicked
+2024-04-30 22:03:50,280 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-04-30 22:04:45,922 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 22:04:45,968 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-04-30 22:04:46,035 :INFO : test_dynamic_controls :checkbox is clicked
+2024-04-30 22:04:49,116 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-04-30 22:07:30,073 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 22:07:30,124 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-04-30 22:07:30,175 :INFO : test_dynamic_controls :checkbox is clicked
+2024-04-30 22:08:59,297 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-04-30 22:08:59,344 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-04-30 22:08:59,393 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 10:02:27,179 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 10:02:27,395 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 10:02:27,512 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 10:02:30,815 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 10:41:11,639 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 10:41:11,714 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 10:41:11,821 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 10:41:15,089 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 10:46:21,588 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 10:46:21,656 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 10:46:21,775 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 10:46:25,015 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 11:01:59,327 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 11:01:59,406 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 11:01:59,510 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 11:01:59,637 :INFO : test_dynamic_controls :waiting for checkbox to disappear
+2024-05-01 11:02:02,796 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 11:05:16,238 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 11:05:16,313 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 11:05:16,422 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 11:05:16,545 :INFO : test_dynamic_controls :waiting for checkbox to disappear
+2024-05-01 11:05:19,698 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 11:08:15,033 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 11:08:15,109 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 11:08:15,230 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 11:08:15,354 :INFO : test_dynamic_controls :waiting for checkbox to disappear
+2024-05-01 11:08:18,576 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 11:26:43,205 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 11:26:43,279 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 11:26:43,390 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 11:26:43,500 :INFO : test_dynamic_controls :waiting for checkbox to disappear
+2024-05-01 11:26:46,701 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 11:30:25,314 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 11:30:25,390 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 11:30:25,512 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 11:30:25,653 :INFO : test_dynamic_controls :waiting for checkbox to disappear
+2024-05-01 11:30:28,900 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 11:31:38,399 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 11:31:38,480 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 11:31:38,606 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 11:31:38,767 :INFO : test_dynamic_controls :waiting for checkbox to disappear
+2024-05-01 11:31:42,009 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 11:35:16,620 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 11:35:16,699 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 11:35:16,788 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 11:35:16,916 :INFO : test_dynamic_controls :waiting for checkbox to disappear
+2024-05-01 11:35:20,161 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 11:37:22,864 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 11:37:22,940 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 11:37:23,056 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 11:37:23,205 :INFO : test_dynamic_controls :waiting for checkbox to disappear
+2024-05-01 11:37:26,452 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 11:37:26,486 :INFO : test_dynamic_controls :Checkbox status: It's gone!
+2024-05-01 11:45:40,540 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 11:45:40,607 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 11:45:40,712 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 11:45:40,850 :INFO : test_dynamic_controls :waiting for checkbox to disappear
+2024-05-01 11:45:44,048 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 11:45:44,103 :INFO : test_dynamic_controls :Checkbox status: It's gone!
+2024-05-01 11:52:33,352 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 11:52:33,461 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 11:52:33,621 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 11:52:33,787 :INFO : test_dynamic_controls :Waiting for checkbox to disappear
+2024-05-01 11:52:37,006 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 11:52:37,028 :INFO : test_dynamic_controls :Checkbox status: It's gone!
+2024-05-01 11:52:37,083 :INFO : test_dynamic_controls :Waiting for checkbox to appear
+2024-05-01 11:52:37,093 :INFO : test_dynamic_controls :Add button clicked, checkbox is back
+2024-05-01 11:55:24,056 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 11:55:24,136 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 11:55:24,256 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 11:55:24,393 :INFO : test_dynamic_controls :Waiting for checkbox to disappear
+2024-05-01 11:55:27,571 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 11:55:27,599 :INFO : test_dynamic_controls :Checkbox status: It's gone!
+2024-05-01 11:55:27,675 :INFO : test_dynamic_controls :Waiting for checkbox to appear
+2024-05-01 11:55:30,824 :INFO : test_dynamic_controls :Add button clicked, checkbox is back
+2024-05-01 11:55:30,852 :INFO : test_dynamic_controls :Checkbox status: It's back!
+2024-05-01 12:01:00,168 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 12:01:00,220 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 12:01:00,308 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 12:01:00,438 :INFO : test_dynamic_controls :Waiting for checkbox to disappear
+2024-05-01 12:01:03,629 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 12:01:03,655 :INFO : test_dynamic_controls :Checkbox status: It's gone!
+2024-05-01 12:01:03,725 :INFO : test_dynamic_controls :Waiting for checkbox to appear
+2024-05-01 12:01:06,893 :INFO : test_dynamic_controls :Add button clicked, checkbox is back
+2024-05-01 12:01:06,917 :INFO : test_dynamic_controls :Checkbox status: It's back!
+2024-05-01 12:03:05,762 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 12:03:05,843 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 12:03:05,948 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 12:03:06,061 :INFO : test_dynamic_controls :Waiting for checkbox to disappear
+2024-05-01 12:03:09,266 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 12:03:09,288 :INFO : test_dynamic_controls :Checkbox status: It's gone!
+2024-05-01 12:03:09,340 :INFO : test_dynamic_controls :Waiting for checkbox to appear
+2024-05-01 12:03:12,469 :INFO : test_dynamic_controls :Add button clicked, checkbox is back
+2024-05-01 12:03:12,487 :INFO : test_dynamic_controls :Checkbox status: It's back!
+2024-05-01 12:04:22,995 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 12:04:23,068 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 12:04:23,169 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 12:04:23,307 :INFO : test_dynamic_controls :Waiting for checkbox to disappear
+2024-05-01 12:04:26,472 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 12:04:26,493 :INFO : test_dynamic_controls :Checkbox status: It's gone!
+2024-05-01 12:04:26,545 :INFO : test_dynamic_controls :Waiting for checkbox to appear
+2024-05-01 12:04:29,691 :INFO : test_dynamic_controls :Add button clicked, checkbox is back
+2024-05-01 12:04:29,711 :INFO : test_dynamic_controls :Checkbox status: It's back!
+2024-05-01 12:04:29,736 :INFO : test_dynamic_controls :False
+2024-05-01 12:12:56,254 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 12:12:56,331 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 12:12:56,465 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 12:12:56,624 :INFO : test_dynamic_controls :Waiting for checkbox to disappear
+2024-05-01 12:12:59,824 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 12:12:59,850 :INFO : test_dynamic_controls :Checkbox status: It's gone!
+2024-05-01 12:12:59,923 :INFO : test_dynamic_controls :Waiting for checkbox to appear
+2024-05-01 12:13:03,080 :INFO : test_dynamic_controls :Add button clicked, checkbox is back
+2024-05-01 12:13:03,108 :INFO : test_dynamic_controls :Checkbox status: It's back!
+2024-05-01 12:13:03,142 :INFO : test_dynamic_controls :Input box status: False
+2024-05-01 12:13:06,371 :INFO : test_dynamic_controls :Input box is enabled
+2024-05-01 12:16:33,440 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 12:16:33,526 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 12:16:33,676 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 12:16:33,780 :INFO : test_dynamic_controls :Waiting for checkbox to disappear
+2024-05-01 12:16:37,050 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 12:16:37,075 :INFO : test_dynamic_controls :Checkbox status: It's gone!
+2024-05-01 12:16:37,131 :INFO : test_dynamic_controls :Waiting for checkbox to appear
+2024-05-01 12:16:40,229 :INFO : test_dynamic_controls :Add button clicked, checkbox is back
+2024-05-01 12:16:40,250 :INFO : test_dynamic_controls :Checkbox status: It's back!
+2024-05-01 12:16:40,275 :INFO : test_dynamic_controls :Input box status: False
+2024-05-01 12:16:40,353 :INFO : test_dynamic_controls :Waiting for input box to be enabled
+2024-05-01 12:16:43,502 :INFO : test_dynamic_controls :Input box status: It's enabled!
+2024-05-01 12:17:39,838 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 12:17:39,910 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 12:17:40,006 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 12:17:40,112 :INFO : test_dynamic_controls :Waiting for checkbox to disappear
+2024-05-01 12:17:43,320 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 12:17:43,343 :INFO : test_dynamic_controls :Checkbox status: It's gone!
+2024-05-01 12:17:43,400 :INFO : test_dynamic_controls :Waiting for checkbox to appear
+2024-05-01 12:17:46,524 :INFO : test_dynamic_controls :Add button clicked, checkbox is back
+2024-05-01 12:17:46,557 :INFO : test_dynamic_controls :Checkbox status: It's back!
+2024-05-01 12:17:46,589 :INFO : test_dynamic_controls :Input box status: False
+2024-05-01 12:17:46,672 :INFO : test_dynamic_controls :Waiting for input box to be enabled
+2024-05-01 12:17:49,867 :INFO : test_dynamic_controls :Input box status: It's enabled!
+2024-05-01 12:21:06,721 :INFO : test_dynamic_controls :Opened Dynamic Controls Page
+2024-05-01 12:21:06,781 :INFO : test_dynamic_controls :Page Title: Dynamic Controls
+2024-05-01 12:21:06,896 :INFO : test_dynamic_controls :checkbox is clicked
+2024-05-01 12:21:07,030 :INFO : test_dynamic_controls :Waiting for checkbox to disappear
+2024-05-01 12:21:10,222 :INFO : test_dynamic_controls :Remove button clicked, checkbox is gone
+2024-05-01 12:21:10,250 :INFO : test_dynamic_controls :Checkbox status: It's gone!
+2024-05-01 12:21:10,320 :INFO : test_dynamic_controls :Waiting for checkbox to appear
+2024-05-01 12:21:13,491 :INFO : test_dynamic_controls :Add button clicked, checkbox is back
+2024-05-01 12:21:13,518 :INFO : test_dynamic_controls :Checkbox status: It's back!
+2024-05-01 12:21:13,552 :INFO : test_dynamic_controls :Input box status: False
+2024-05-01 12:21:13,630 :INFO : test_dynamic_controls :Waiting for input box to be enabled
+2024-05-01 12:21:16,798 :INFO : test_dynamic_controls :Input box status: It's enabled!
+2024-05-01 12:21:16,819 :INFO : test_dynamic_controls :Input box status: True
+2024-05-01 12:21:16,900 :INFO : test_dynamic_controls :Waiting for input box to be disabled
+2024-05-01 12:21:20,051 :INFO : test_dynamic_controls :Input box status: It's disabled!
+2024-05-01 13:34:59,160 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 13:36:24,699 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 13:36:24,948 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 13:52:57,840 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 13:52:57,891 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 14:00:46,673 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 14:00:46,721 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 14:06:00,541 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 14:06:00,597 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 14:19:51,022 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 14:19:51,139 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 14:19:51,377 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-01 14:27:25,830 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 14:27:25,948 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 14:27:26,156 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-01 14:35:59,068 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 14:35:59,129 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 14:35:59,360 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-01 14:45:04,875 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 14:45:04,933 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 14:45:05,152 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-01 14:48:45,963 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 14:48:46,019 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 14:48:46,228 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-01 14:51:49,416 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 14:51:49,472 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 14:51:49,682 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-01 14:52:59,103 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 14:52:59,152 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 14:52:59,366 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-01 14:55:54,526 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 14:55:54,576 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 14:55:54,798 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-01 15:05:05,370 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 15:05:05,429 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 15:05:05,640 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-01 23:18:51,556 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 23:18:51,845 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 23:18:52,143 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-01 23:38:53,090 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 23:38:53,158 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 23:38:53,469 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-01 23:38:58,932 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-01 23:54:36,354 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-01 23:54:36,664 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-01 23:54:38,319 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-01 23:54:38,356 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-01 23:54:43,629 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-01 23:54:44,009 :INFO : test_dynamic_loading :Right clicked and selected back to main page
+2024-05-02 00:10:15,664 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 00:10:15,737 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 00:10:16,012 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 00:10:16,050 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-02 00:10:21,511 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 00:10:21,781 :INFO : test_dynamic_loading :Right clicked and selected back to main page
+2024-05-02 00:11:57,042 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 00:11:57,118 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 00:11:57,373 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 00:11:57,422 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-02 00:12:02,882 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 00:12:03,117 :INFO : test_dynamic_loading :Right clicked and selected back to main page
+2024-05-02 00:12:36,651 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 00:12:36,739 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 00:12:37,013 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 00:12:37,050 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-02 00:12:42,479 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 00:12:42,714 :INFO : test_dynamic_loading :Right clicked and selected back to main page
+2024-05-02 00:13:18,579 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 00:13:18,678 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 00:13:18,979 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 00:13:19,076 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-02 00:13:24,534 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 00:13:26,787 :INFO : test_dynamic_loading :Right clicked and selected back to main page
+2024-05-02 00:13:32,240 :INFO : test_dynamic_loading :Opened Example 2 link
+2024-05-02 00:14:37,307 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 00:14:37,398 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 00:14:37,662 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 00:14:37,711 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-02 00:14:43,206 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 00:14:45,457 :INFO : test_dynamic_loading :Right clicked and selected back to main page
+2024-05-02 00:14:45,729 :INFO : test_dynamic_loading :Opened Example 2 link
+2024-05-02 00:14:45,790 :INFO : test_dynamic_loading :Element Title: Example 2: Element rendered after the fact
+2024-05-02 00:16:14,777 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 00:16:14,882 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 00:16:15,574 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 00:16:15,619 :INFO : test_dynamic_loading :Element Title: Example 1: Element on page that is hidden
+2024-05-02 00:16:21,056 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 00:16:23,306 :INFO : test_dynamic_loading :Right clicked and selected back to main page
+2024-05-02 00:16:23,558 :INFO : test_dynamic_loading :Opened Example 2 link
+2024-05-02 00:16:23,624 :INFO : test_dynamic_loading :Element Title: Example 2: Element rendered after the fact
+2024-05-02 00:16:28,973 :INFO : test_dynamic_loading :Example 2 message: Hello World!
+2024-05-02 00:20:17,964 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 00:20:18,043 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 00:20:18,331 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 00:20:18,372 :INFO : test_dynamic_loading :Example 1 Title: Example 1: Element on page that is hidden
+2024-05-02 00:20:18,497 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 00:20:23,896 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 00:20:26,148 :INFO : test_dynamic_loading :Right clicked and selected back to main page
+2024-05-02 00:23:37,543 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 00:23:37,641 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 00:23:37,922 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 00:23:37,962 :INFO : test_dynamic_loading :Example 1 Title: Example 1: Element on page that is hidden
+2024-05-02 00:23:38,071 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 00:23:43,396 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 00:23:45,636 :INFO : test_dynamic_loading :Right clicked and selected back to main page
+2024-05-02 00:29:15,732 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 00:29:15,807 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 00:29:16,052 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 00:29:16,091 :INFO : test_dynamic_loading :Example 1 Title: Example 1: Element on page that is hidden
+2024-05-02 00:29:16,191 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 00:29:21,527 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 00:29:21,527 :INFO : test_dynamic_loading :Right clicked and selected back to main page
+2024-05-02 00:30:47,073 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 00:30:47,153 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 00:30:47,489 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 00:30:47,538 :INFO : test_dynamic_loading :Example 1 Title: Example 1: Element on page that is hidden
+2024-05-02 00:30:47,638 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 00:30:52,970 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 00:30:52,970 :INFO : test_dynamic_loading :Right clicked and selected back to main page
+2024-05-02 00:32:15,213 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 00:32:15,283 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 00:32:15,536 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 00:32:15,576 :INFO : test_dynamic_loading :Example 1 Title: Example 1: Element on page that is hidden
+2024-05-02 00:32:15,679 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 00:32:20,998 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 00:39:54,667 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 00:39:54,771 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 00:39:55,029 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 00:39:55,071 :INFO : test_dynamic_loading :Example 1 Title: Example 1: Element on page that is hidden
+2024-05-02 00:39:55,173 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 00:40:00,561 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 00:40:00,628 :INFO : test_dynamic_loading :Right clicked and selected back to main page
+2024-05-02 00:42:48,180 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 00:42:48,253 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 00:42:48,499 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 00:42:48,548 :INFO : test_dynamic_loading :Example 1 Title: Example 1: Element on page that is hidden
+2024-05-02 00:42:48,644 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 00:42:53,994 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 00:42:54,006 :INFO : test_dynamic_loading :going back to main page
+2024-05-02 00:46:40,389 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 00:46:40,478 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 00:46:40,762 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 00:46:40,812 :INFO : test_dynamic_loading :Example 1 Title: Example 1: Element on page that is hidden
+2024-05-02 00:46:40,916 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 00:46:46,261 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 00:46:46,276 :INFO : test_dynamic_loading :going back to main page
+2024-05-02 01:07:39,669 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 01:07:39,768 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 01:07:43,434 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 01:07:43,469 :INFO : test_dynamic_loading :Example 1 Title: Example 1: Element on page that is hidden
+2024-05-02 01:07:43,560 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 01:07:48,951 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 01:07:49,016 :INFO : test_dynamic_loading :going back to main page
+2024-05-02 01:17:09,594 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 01:17:09,680 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 01:17:09,941 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 01:17:09,987 :INFO : test_dynamic_loading :Example 1 Title: Example 1: Element on page that is hidden
+2024-05-02 01:17:10,076 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 01:17:15,411 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 01:17:20,644 :INFO : test_dynamic_loading :going back to main page
+2024-05-02 01:17:54,507 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 01:17:54,598 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 01:17:54,841 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 01:17:54,890 :INFO : test_dynamic_loading :Example 1 Title: Example 1: Element on page that is hidden
+2024-05-02 01:17:54,982 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 01:18:00,312 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 01:18:05,694 :INFO : test_dynamic_loading :going back to main page
+2024-05-02 01:18:34,679 :INFO : test_context_menu :Opened Context Menu Page
+2024-05-02 01:18:34,742 :INFO : test_context_menu :Page Title: Context Menu
+2024-05-02 01:18:35,234 :INFO : test_context_menu :Performed a right click inside display box
+2024-05-02 01:18:35,270 :INFO : test_context_menu :Switching to pop up alert
+2024-05-02 01:18:35,275 :INFO : test_context_menu :alert message: You selected a context menu
+2024-05-02 01:18:35,290 :INFO : test_context_menu :closed pop up alert
+2024-05-02 01:18:46,156 :INFO : test_context_menu :Element is present
+2024-05-02 01:18:46,167 :INFO : test_context_menu :Element is present
+2024-05-02 01:21:27,251 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 01:21:27,345 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 01:21:27,612 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 01:21:27,662 :INFO : test_dynamic_loading :Example 1 Title: Example 1: Element on page that is hidden
+2024-05-02 01:21:27,778 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 01:21:33,134 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 01:21:38,488 :INFO : test_dynamic_loading :going back to main page
+2024-05-02 01:21:38,874 :INFO : test_dynamic_loading :Opened Example 2 link
+2024-05-02 01:21:38,936 :INFO : test_dynamic_loading :Example 2 Title: Example 2: Element rendered after the fact
+2024-05-02 01:21:39,026 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 01:21:44,259 :INFO : test_dynamic_loading :Example 2 message: Hello World!
+2024-05-02 01:22:00,046 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 01:22:00,141 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 01:22:00,438 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 01:22:00,480 :INFO : test_dynamic_loading :Example 1 Title: Example 1: Element on page that is hidden
+2024-05-02 01:22:00,599 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 01:22:05,935 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 01:22:11,303 :INFO : test_dynamic_loading :going back to main page
+2024-05-02 01:22:11,790 :INFO : test_dynamic_loading :Opened Example 2 link
+2024-05-02 01:22:11,846 :INFO : test_dynamic_loading :Example 2 Title: Example 2: Element rendered after the fact
+2024-05-02 01:22:11,927 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 01:22:17,148 :INFO : test_dynamic_loading :Example 2 message: Hello World!
+2024-05-02 01:22:40,256 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 01:22:40,357 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 01:22:40,602 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 01:22:40,645 :INFO : test_dynamic_loading :Example 1 Title: Example 1: Element on page that is hidden
+2024-05-02 01:22:40,758 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 01:22:46,138 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 01:22:49,504 :INFO : test_dynamic_loading :going back to main page
+2024-05-02 01:22:49,871 :INFO : test_dynamic_loading :Opened Example 2 link
+2024-05-02 01:22:49,933 :INFO : test_dynamic_loading :Example 2 Title: Example 2: Element rendered after the fact
+2024-05-02 01:22:50,047 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 01:22:55,362 :INFO : test_dynamic_loading :Example 2 message: Hello World!
+2024-05-02 01:24:04,885 :INFO : test_dynamic_loading :Opened Dynamic Loading Page
+2024-05-02 01:24:04,969 :INFO : test_dynamic_loading :Page Title: Dynamically Loaded Page Elements
+2024-05-02 01:24:05,245 :INFO : test_dynamic_loading :Opened Example 1 link
+2024-05-02 01:24:05,302 :INFO : test_dynamic_loading :Example 1 Title: Example 1: Element on page that is hidden
+2024-05-02 01:24:05,397 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 01:24:10,763 :INFO : test_dynamic_loading :Example 1 message: Hello World!
+2024-05-02 01:24:11,122 :INFO : test_dynamic_loading :going back to main page
+2024-05-02 01:24:11,382 :INFO : test_dynamic_loading :Opened Example 2 link
+2024-05-02 01:24:11,429 :INFO : test_dynamic_loading :Example 2 Title: Example 2: Element rendered after the fact
+2024-05-02 01:24:11,501 :INFO : test_dynamic_loading :Clicked on start button
+2024-05-02 01:24:16,759 :INFO : test_dynamic_loading :Example 2 message: Hello World!
+2024-05-02 01:38:15,941 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 01:38:16,010 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 01:38:33,442 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 01:38:33,521 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 01:39:06,539 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 01:40:59,823 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 01:40:59,898 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 01:41:12,571 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 01:41:12,639 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 01:41:31,962 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 01:41:32,036 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 01:46:26,519 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 01:46:26,598 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 02:00:30,312 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 02:00:30,391 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 02:02:44,132 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 02:02:44,212 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 02:04:20,448 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 02:04:20,520 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 02:05:25,412 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 02:05:25,483 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 02:06:35,532 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 02:06:35,609 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 02:10:10,957 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 02:10:11,030 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 02:10:58,529 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 02:10:58,597 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 02:11:03,948 :INFO : test_entry_ad :Window title: THIS IS A MODAL WINDOW
+2024-05-02 02:13:55,431 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 02:14:05,526 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 02:15:50,354 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 02:15:55,393 :INFO : test_entry_ad :Opened modal window
+2024-05-02 02:15:55,428 :INFO : test_entry_ad :Window title: THIS IS A MODAL WINDOW
+2024-05-02 02:15:55,557 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 02:18:02,592 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 02:18:05,603 :INFO : test_entry_ad :entry ad appeared on page
+2024-05-02 02:18:05,637 :INFO : test_entry_ad :Window title: THIS IS A MODAL WINDOW
+2024-05-02 02:18:05,708 :INFO : test_entry_ad :closed entry ad
+2024-05-02 02:18:05,756 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 02:19:01,261 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 02:19:01,262 :INFO : test_entry_ad :entry ad appeared on page
+2024-05-02 02:19:01,314 :INFO : test_entry_ad :Window title: 
+2024-05-02 02:19:22,913 :INFO : test_entry_ad :Opened Entry Ad Page
+2024-05-02 02:19:25,919 :INFO : test_entry_ad :entry ad appeared on page
+2024-05-02 02:19:25,949 :INFO : test_entry_ad :Window title: THIS IS A MODAL WINDOW
+2024-05-02 02:19:26,018 :INFO : test_entry_ad :closed entry ad
+2024-05-02 02:19:26,065 :INFO : test_entry_ad :Page Title: Entry Ad
+2024-05-02 02:26:57,070 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 02:26:57,135 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 13:00:21,450 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 13:00:21,581 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 13:23:41,647 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 13:23:41,725 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 13:28:13,081 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 13:28:13,136 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 13:47:28,411 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 13:47:28,458 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 13:47:57,246 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 13:47:57,348 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 13:50:00,780 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 13:50:00,848 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 14:00:08,979 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 14:00:09,046 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 14:18:49,597 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 14:18:49,653 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 14:22:30,645 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 14:22:30,706 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 14:24:14,358 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 14:24:14,419 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 14:28:53,624 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 14:28:53,710 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 14:38:05,932 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 14:38:06,013 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 14:40:16,214 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 14:40:16,262 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 14:55:10,293 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 14:55:10,361 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 14:55:42,673 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 14:55:42,732 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 16:13:56,627 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 16:13:56,748 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 16:14:38,294 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 16:14:38,333 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 16:20:33,372 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 16:20:33,415 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 16:23:53,820 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 16:23:53,867 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 16:39:15,597 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 16:39:15,813 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 16:39:51,475 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 16:39:51,516 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 16:40:32,084 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 16:40:32,123 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-02 16:41:32,013 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-02 16:41:32,053 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-03 13:24:52,675 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-03 13:24:52,797 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-03 13:28:45,523 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-03 13:28:45,580 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-03 13:29:17,725 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-03 13:29:17,794 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-03 13:42:03,305 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-03 13:42:03,388 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-03 13:42:07,465 :INFO : test_exit_intent :Modal window appeared on page
+2024-05-03 13:42:07,494 :INFO : test_exit_intent :Modal title: THIS IS A MODAL WINDOW
+2024-05-03 13:42:07,567 :INFO : test_exit_intent :closed modal window
+2024-05-03 13:43:09,242 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-03 13:43:09,322 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-03 13:43:09,604 :INFO : test_exit_intent :Exiting the web page
+2024-05-03 13:43:09,647 :INFO : test_exit_intent :Modal window appeared on page
+2024-05-03 13:43:09,684 :INFO : test_exit_intent :Modal title: THIS IS A MODAL WINDOW
+2024-05-03 13:43:09,786 :INFO : test_exit_intent :closed modal window
+2024-05-03 13:47:27,424 :INFO : test_exit_intent :Opened Exit Intent Page
+2024-05-03 13:47:27,521 :INFO : test_exit_intent :Page Title: Exit Intent
+2024-05-03 13:47:27,570 :INFO : test_exit_intent :Exiting the web page
+2024-05-03 13:47:27,619 :INFO : test_exit_intent :Modal window appeared on page
+2024-05-03 13:47:27,652 :INFO : test_exit_intent :Modal title: THIS IS A MODAL WINDOW
+2024-05-03 13:47:27,792 :INFO : test_exit_intent :closed modal window
+2024-05-03 14:44:34,410 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 14:44:34,562 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 14:46:43,123 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 14:46:43,200 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 14:46:44,347 :INFO : test_dynamic_content :get images info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>)]
+2024-05-03 14:48:20,053 :INFO : test_broken_image :Opened Broken Images Page
+2024-05-03 14:48:20,125 :INFO : test_broken_image :page title: Broken Images
+2024-05-03 14:48:20,142 :INFO : test_broken_image :Total number of images: 4
+2024-05-03 14:48:21,342 :INFO : test_broken_image :get broken images info: [('<img src="asdf.jpg">', <Response [404]>), ('<img src="hjkl.jpg">', <Response [404]>)]
+2024-05-03 14:48:21,342 :INFO : test_broken_image :This page has 2 broken images
+2024-05-03 14:48:22,548 :INFO : test_broken_image :get proper images info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="img/avatar-blank.jpg">', <Response [200]>)]
+2024-05-03 14:48:22,548 :INFO : test_broken_image :This page has 2 proper images
+2024-05-03 15:00:53,397 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 15:00:53,546 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 15:00:56,181 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 15:00:56,495 :INFO : test_dynamic_content :get some static content
+2024-05-03 15:00:57,854 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 15:11:14,720 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 15:11:14,810 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 15:11:16,041 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>)]
+2024-05-03 15:11:16,405 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 15:11:17,635 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>)]
+2024-05-03 15:11:17,852 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 15:11:19,111 :INFO : test_dynamic_content :get images list 3 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>)]
+2024-05-03 15:12:53,198 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 15:12:53,306 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 15:12:54,682 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>)]
+2024-05-03 15:12:55,071 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 15:12:56,565 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 15:12:56,822 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 15:12:58,046 :INFO : test_dynamic_content :get images list 3 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 15:19:23,109 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 15:19:23,189 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 15:19:24,356 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>)]
+2024-05-03 15:19:24,647 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 15:19:25,884 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 15:19:26,138 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 15:19:27,617 :INFO : test_dynamic_content :get images list 3 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 15:36:35,328 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 15:36:35,389 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 15:36:36,694 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>)]
+2024-05-03 15:36:37,228 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 15:36:38,401 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>)]
+2024-05-03 15:36:38,634 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 15:36:40,974 :INFO : test_dynamic_content :get images list 3 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 15:38:00,789 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 15:38:00,860 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 15:38:02,115 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 15:38:02,485 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 15:38:03,654 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 15:38:03,876 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 15:38:05,049 :INFO : test_dynamic_content :get images list 3 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 15:38:05,050 :INFO : test_dynamic_content :list2_image2: <Response [200]>
+2024-05-03 15:38:05,050 :INFO : test_dynamic_content :list3_image2: <Response [200]>
+2024-05-03 15:43:03,751 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 15:43:03,807 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 15:43:05,084 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>)]
+2024-05-03 15:43:05,432 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 15:43:06,576 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 15:43:06,804 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 15:43:08,070 :INFO : test_dynamic_content :get images list 3 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 15:43:08,070 :INFO : test_dynamic_content :list2_image2: <Response [200]>
+2024-05-03 15:43:08,071 :INFO : test_dynamic_content :list3_image2: <Response [200]>
+2024-05-03 15:48:42,814 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 15:48:42,877 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 15:48:44,070 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 15:48:44,517 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 15:48:45,684 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 15:48:45,923 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 15:48:47,085 :INFO : test_dynamic_content :get images list 3 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 15:49:22,927 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 15:49:22,996 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 15:49:24,564 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 15:49:24,883 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 15:49:26,001 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>)]
+2024-05-03 15:49:26,219 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 15:49:27,411 :INFO : test_dynamic_content :get images list 3 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 15:57:49,822 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 15:57:49,884 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 15:57:49,901 :INFO : test_dynamic_content :get images list 1 info: [<selenium.webdriver.remote.webelement.WebElement (session="006f76c297240e7a68442e605777b984", element="f.FB2571450E325E52816B8B639E1B9008.d.2B2AE30B84E2A78012BA3CBB56A8451A.e.7")>, <selenium.webdriver.remote.webelement.WebElement (session="006f76c297240e7a68442e605777b984", element="f.FB2571450E325E52816B8B639E1B9008.d.2B2AE30B84E2A78012BA3CBB56A8451A.e.11")>, <selenium.webdriver.remote.webelement.WebElement (session="006f76c297240e7a68442e605777b984", element="f.FB2571450E325E52816B8B639E1B9008.d.2B2AE30B84E2A78012BA3CBB56A8451A.e.12")>, <selenium.webdriver.remote.webelement.WebElement (session="006f76c297240e7a68442e605777b984", element="f.FB2571450E325E52816B8B639E1B9008.d.2B2AE30B84E2A78012BA3CBB56A8451A.e.13")>]
+2024-05-03 15:57:50,232 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 15:57:50,253 :INFO : test_dynamic_content :get images list 2 info: [<selenium.webdriver.remote.webelement.WebElement (session="006f76c297240e7a68442e605777b984", element="f.FB2571450E325E52816B8B639E1B9008.d.EEEE3E8604DAF97EA648EF0BA11D42CB.e.16")>, <selenium.webdriver.remote.webelement.WebElement (session="006f76c297240e7a68442e605777b984", element="f.FB2571450E325E52816B8B639E1B9008.d.EEEE3E8604DAF97EA648EF0BA11D42CB.e.17")>, <selenium.webdriver.remote.webelement.WebElement (session="006f76c297240e7a68442e605777b984", element="f.FB2571450E325E52816B8B639E1B9008.d.EEEE3E8604DAF97EA648EF0BA11D42CB.e.21")>, <selenium.webdriver.remote.webelement.WebElement (session="006f76c297240e7a68442e605777b984", element="f.FB2571450E325E52816B8B639E1B9008.d.EEEE3E8604DAF97EA648EF0BA11D42CB.e.18")>]
+2024-05-03 15:57:50,467 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 15:57:50,494 :INFO : test_dynamic_content :get images list 3 info: [<selenium.webdriver.remote.webelement.WebElement (session="006f76c297240e7a68442e605777b984", element="f.FB2571450E325E52816B8B639E1B9008.d.D948EC4D150E150DD9CF51A7AE4854C1.e.24")>, <selenium.webdriver.remote.webelement.WebElement (session="006f76c297240e7a68442e605777b984", element="f.FB2571450E325E52816B8B639E1B9008.d.D948EC4D150E150DD9CF51A7AE4854C1.e.25")>, <selenium.webdriver.remote.webelement.WebElement (session="006f76c297240e7a68442e605777b984", element="f.FB2571450E325E52816B8B639E1B9008.d.D948EC4D150E150DD9CF51A7AE4854C1.e.26")>, <selenium.webdriver.remote.webelement.WebElement (session="006f76c297240e7a68442e605777b984", element="f.FB2571450E325E52816B8B639E1B9008.d.D948EC4D150E150DD9CF51A7AE4854C1.e.27")>]
+2024-05-03 16:00:42,960 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 16:00:43,040 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 16:00:43,057 :INFO : test_dynamic_content :get images list 1 info: [<selenium.webdriver.remote.webelement.WebElement (session="8afc126ee659d2d8c9215689706dcd29", element="f.F36D67F9D1F32CA55D4F5A93A2DE9554.d.8D14A50B7CA1392D7753A358D62BCB49.e.7")>, <selenium.webdriver.remote.webelement.WebElement (session="8afc126ee659d2d8c9215689706dcd29", element="f.F36D67F9D1F32CA55D4F5A93A2DE9554.d.8D14A50B7CA1392D7753A358D62BCB49.e.11")>, <selenium.webdriver.remote.webelement.WebElement (session="8afc126ee659d2d8c9215689706dcd29", element="f.F36D67F9D1F32CA55D4F5A93A2DE9554.d.8D14A50B7CA1392D7753A358D62BCB49.e.12")>, <selenium.webdriver.remote.webelement.WebElement (session="8afc126ee659d2d8c9215689706dcd29", element="f.F36D67F9D1F32CA55D4F5A93A2DE9554.d.8D14A50B7CA1392D7753A358D62BCB49.e.13")>]
+2024-05-03 16:00:43,492 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 16:00:43,510 :INFO : test_dynamic_content :get images list 2 info: [<selenium.webdriver.remote.webelement.WebElement (session="8afc126ee659d2d8c9215689706dcd29", element="f.F36D67F9D1F32CA55D4F5A93A2DE9554.d.D03522DC3C3609DD6D13723BB3B50A1E.e.16")>, <selenium.webdriver.remote.webelement.WebElement (session="8afc126ee659d2d8c9215689706dcd29", element="f.F36D67F9D1F32CA55D4F5A93A2DE9554.d.D03522DC3C3609DD6D13723BB3B50A1E.e.21")>, <selenium.webdriver.remote.webelement.WebElement (session="8afc126ee659d2d8c9215689706dcd29", element="f.F36D67F9D1F32CA55D4F5A93A2DE9554.d.D03522DC3C3609DD6D13723BB3B50A1E.e.17")>, <selenium.webdriver.remote.webelement.WebElement (session="8afc126ee659d2d8c9215689706dcd29", element="f.F36D67F9D1F32CA55D4F5A93A2DE9554.d.D03522DC3C3609DD6D13723BB3B50A1E.e.18")>]
+2024-05-03 16:00:44,244 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 16:00:44,259 :INFO : test_dynamic_content :get images list 3 info: [<selenium.webdriver.remote.webelement.WebElement (session="8afc126ee659d2d8c9215689706dcd29", element="f.F36D67F9D1F32CA55D4F5A93A2DE9554.d.C42F7D34507EC73789598102B51C2D7D.e.24")>, <selenium.webdriver.remote.webelement.WebElement (session="8afc126ee659d2d8c9215689706dcd29", element="f.F36D67F9D1F32CA55D4F5A93A2DE9554.d.C42F7D34507EC73789598102B51C2D7D.e.25")>, <selenium.webdriver.remote.webelement.WebElement (session="8afc126ee659d2d8c9215689706dcd29", element="f.F36D67F9D1F32CA55D4F5A93A2DE9554.d.C42F7D34507EC73789598102B51C2D7D.e.26")>, <selenium.webdriver.remote.webelement.WebElement (session="8afc126ee659d2d8c9215689706dcd29", element="f.F36D67F9D1F32CA55D4F5A93A2DE9554.d.C42F7D34507EC73789598102B51C2D7D.e.29")>]
+2024-05-03 16:07:23,445 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 16:07:23,511 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 16:07:24,693 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>)]
+2024-05-03 16:07:25,019 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 16:07:26,225 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 16:07:26,421 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 16:07:27,753 :INFO : test_dynamic_content :get images list 3 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 16:09:07,156 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 16:09:07,225 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 16:09:08,442 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>)]
+2024-05-03 16:09:08,773 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 16:09:09,897 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 16:09:10,108 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 16:09:11,278 :INFO : test_dynamic_content :get images list 3 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 16:10:03,385 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 16:10:03,462 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 16:10:06,889 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 16:10:07,593 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 16:10:08,863 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 16:10:09,081 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 16:10:10,278 :INFO : test_dynamic_content :get images list 3 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>)]
+2024-05-03 16:10:38,596 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 16:10:38,674 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 16:10:40,850 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 16:10:41,227 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 16:10:42,402 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 16:10:42,612 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 16:10:43,810 :INFO : test_dynamic_content :get images list 3 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 16:12:05,988 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 16:12:06,063 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 16:12:07,208 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>)]
+2024-05-03 16:12:07,519 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 16:12:08,802 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 16:12:09,135 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 16:12:10,317 :INFO : test_dynamic_content :get images list 3 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 16:12:10,317 :INFO : test_dynamic_content :list2_image2 src: <img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">
+2024-05-03 16:12:10,317 :INFO : test_dynamic_content :list3_image2 src: <img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">
+2024-05-03 16:18:16,170 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 16:18:16,229 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 16:18:17,371 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 16:18:17,699 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 16:18:18,827 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg">', <Response [200]>)]
+2024-05-03 16:18:19,031 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 16:18:20,315 :INFO : test_dynamic_content :get images list 3 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 16:18:20,316 :INFO : test_dynamic_content :list2_image2 src: <img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">
+2024-05-03 16:18:20,316 :INFO : test_dynamic_content :list3_image2 src: <img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">
+2024-05-03 16:18:20,316 :INFO : test_dynamic_content :images are the same
+2024-05-03 16:18:20,317 :INFO : test_dynamic_content :list2_image3 src: <img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">
+2024-05-03 16:18:20,317 :INFO : test_dynamic_content :list3_image3 src: <img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">
+2024-05-03 16:18:20,317 :INFO : test_dynamic_content :images are the same
+2024-05-03 16:19:54,353 :INFO : test_dynamic_content :Opened Dynamic Content Page
+2024-05-03 16:19:54,412 :INFO : test_dynamic_content :Page Title: Dynamic Content
+2024-05-03 16:19:55,591 :INFO : test_dynamic_content :get images list 1 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>)]
+2024-05-03 16:19:55,957 :INFO : test_dynamic_content :refreshed the page and made some content static
+2024-05-03 16:19:57,093 :INFO : test_dynamic_content :get images list 2 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg">', <Response [200]>)]
+2024-05-03 16:19:57,317 :INFO : test_dynamic_content :refreshed the paged again
+2024-05-03 16:19:59,478 :INFO : test_dynamic_content :get images list 3 info: [('<img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">', <Response [200]>), ('<img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg">', <Response [200]>)]
+2024-05-03 16:19:59,479 :INFO : test_dynamic_content :list2_image2 src: <img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">
+2024-05-03 16:19:59,479 :INFO : test_dynamic_content :list3_image2 src: <img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg">
+2024-05-03 16:19:59,479 :INFO : test_dynamic_content :images are the same
+2024-05-03 16:19:59,479 :INFO : test_dynamic_content :list2_image3 src: <img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">
+2024-05-03 16:19:59,479 :INFO : test_dynamic_content :list3_image3 src: <img src="/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg">
+2024-05-03 16:19:59,479 :INFO : test_dynamic_content :images are the same
