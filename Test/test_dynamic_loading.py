@@ -40,6 +40,7 @@ class TestDynamicLoading(BasePage):
         pyautogui.press('enter')
         log.info("going back to main page")
 
+        dynamic_loading.verify_locator_visibility(dynamic_loading.example_2)
         dynamic_loading.click(dynamic_loading.example_2)
         log.info("Opened Example 2 link")
         example2_title = dynamic_loading.get_text(dynamic_loading.example_2_title)

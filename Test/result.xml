@@ -1,1 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="4" time="62.752" timestamp="2024-03-28T15:48:03.353016" hostname="DESKTOP-KA2FGMF"><testcase classname="test_add_remove.TestAddRemove" name="test_add_remove" time="16.139" /><testcase classname="test_basic_auth.TestBasic" name="test_basicauth" time="10.840" /><testcase classname="test_broken_images.TestBrokenImages" name="test_broken_image" time="12.391" /><testcase classname="test_home.TestHome" name="test_home" time="23.220" /></testsuite></testsuites>
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="16" time="215.630" timestamp="2024-05-06T17:20:23.627361" hostname="DESKTOP-KA2FGMF"><testcase classname="test_add_remove.TestAddRemove" name="test_add_remove" time="7.968" /><testcase classname="test_basic_auth.TestBasic" name="test_basicauth" time="6.667" /><testcase classname="test_broken_images.TestBrokenImages" name="test_broken_image" time="8.330" /><testcase classname="test_challenging_dom.TestChallengingDOM" name="test_challenging_dom" time="11.503" /><testcase classname="test_checkboxes.TestCheckboxes" name="test_checkboxes" time="7.318" /><testcase classname="test_context_menu.TestContextMenu" name="test_context_menu" time="38.106" /><testcase classname="test_digest_authentication.TestDigestAuthentication" name="test_digest_authentication" time="7.676" /><testcase classname="test_disappearing_elements.TestDisappearingElements" name="test_disappearing_elements" time="11.990" /><testcase classname="test_drag_and_drop.TestDragAndDrop" name="test_drag_and_drop" time="8.213" /><testcase classname="test_dropdown.TestDropdown" name="test_dropdown" time="6.846" /><testcase classname="test_dynamic_content.TestDynamicContent" name="test_dynamic_content" time="10.555" /><testcase classname="test_dynamic_controls.TestDynamicControls" name="test_dynamic_controls" time="20.431" /><testcase classname="test_dynamic_loading.TestDynamicLoading" name="test_dynamic_loading" time="43.912"><failure message="selenium.common.exceptions.TimeoutException: Message: &#10;Stacktrace:&#10;&#09;GetHandleVerifier [0x00007FF7EA1270C2+63090]&#10;&#09;(No symbol) [0x00007FF7EA092D12]&#10;&#09;(No symbol) [0x00007FF7E9F2EC65]&#10;&#09;(No symbol) [0x00007FF7E9F7499D]&#10;&#09;(No symbol) [0x00007FF7E9F74ADC]&#10;&#09;(No symbol) [0x00007FF7E9FB5B37]&#10;&#09;(No symbol) [0x00007FF7E9F9701F]&#10;&#09;(No symbol) [0x00007FF7E9FB3412]&#10;&#09;(No symbol) [0x00007FF7E9F96D83]&#10;&#09;(No symbol) [0x00007FF7E9F683A8]&#10;&#09;(No symbol) [0x00007FF7E9F69441]&#10;&#09;GetHandleVerifier [0x00007FF7EA52262D+4238301]&#10;&#09;GetHandleVerifier [0x00007FF7EA55F78D+4488509]&#10;&#09;GetHandleVerifier [0x00007FF7EA557A6F+4456479]&#10;&#09;GetHandleVerifier [0x00007FF7EA200606+953270]&#10;&#09;(No symbol) [0x00007FF7EA09E5DF]&#10;&#09;(No symbol) [0x00007FF7EA0992B4]&#10;&#09;(No symbol) [0x00007FF7EA0993EB]&#10;&#09;(No symbol) [0x00007FF7EA089C24]&#10;&#09;BaseThreadInitThunk [0x00007FFF76C17344+20]&#10;&#09;RtlUserThreadStart [0x00007FFF784826B1+33]">self = &lt;Test.test_dynamic_loading.TestDynamicLoading object at 0x0000022145C42B90&gt;
+
+    def test_dynamic_loading(self):
+    
+        log = self.get_logger()
+        dynamic_loading = DynamicLoading(self.driver)
+    
+        dynamic_loading.open_dynamic_loading_page()
+        log.info("Opened Dynamic Loading Page")
+    
+        dynamic_loading.verify_text_presence("Dynamically Loaded Page Elements")
+        title = dynamic_loading.get_page_title()
+        log.info("Page Title: %s", title)
+        assert "Dynamically Loaded Page Elements" in title
+    
+        dynamic_loading.click(dynamic_loading.example_1)
+        log.info("Opened Example 1 link")
+        example1_title = dynamic_loading.get_text(dynamic_loading.example_1_title)
+        log.info("Example 1 Title: %s", example1_title)
+        assert "Example 1" in example1_title
+    
+        dynamic_loading.click(dynamic_loading.example1_start_button)
+        log.info("Clicked on start button")
+        dynamic_loading.verify_locator_visibility(dynamic_loading.example_1_message)
+        example_1_message = dynamic_loading.get_text(dynamic_loading.example_1_message)
+        log.info("Example 1 message: %s", example_1_message)
+        assert "Hello World!" in example_1_message
+    
+        action = ActionChains(self.driver)
+        action.context_click().perform()
+        pyautogui.press('down')
+        pyautogui.press('down')
+        pyautogui.press('enter')
+        log.info("going back to main page")
+    
+&gt;       dynamic_loading.verify_locator_visibility(dynamic_loading.example_2)
+
+test_dynamic_loading.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\utilities\BasePage.py:60: in verify_locator_visibility
+    element = WebDriverWait(self.driver, 30).until(EC.visibility_of_element_located(value))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="249ed3e049cf51716d1acedbde75ec3f")&gt;
+method = &lt;function visibility_of_element_located.&lt;locals&gt;._predicate at 0x0000022146668280&gt;
+message = ''
+
+    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = "") -&gt; T:
+        """Calls the method provided with the driver as an argument until the \
+        return value does not evaluate to ``False``.
+    
+        :param method: callable(WebDriver)
+        :param message: optional message for :exc:`TimeoutException`
+        :returns: the result of the last call to `method`
+        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.monotonic() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, "screen", None)
+                stacktrace = getattr(exc, "stacktrace", None)
+            time.sleep(self._poll)
+            if time.monotonic() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF7EA1270C2+63090]
+E       	(No symbol) [0x00007FF7EA092D12]
+E       	(No symbol) [0x00007FF7E9F2EC65]
+E       	(No symbol) [0x00007FF7E9F7499D]
+E       	(No symbol) [0x00007FF7E9F74ADC]
+E       	(No symbol) [0x00007FF7E9FB5B37]
+E       	(No symbol) [0x00007FF7E9F9701F]
+E       	(No symbol) [0x00007FF7E9FB3412]
+E       	(No symbol) [0x00007FF7E9F96D83]
+E       	(No symbol) [0x00007FF7E9F683A8]
+E       	(No symbol) [0x00007FF7E9F69441]
+E       	GetHandleVerifier [0x00007FF7EA52262D+4238301]
+E       	GetHandleVerifier [0x00007FF7EA55F78D+4488509]
+E       	GetHandleVerifier [0x00007FF7EA557A6F+4456479]
+E       	GetHandleVerifier [0x00007FF7EA200606+953270]
+E       	(No symbol) [0x00007FF7EA09E5DF]
+E       	(No symbol) [0x00007FF7EA0992B4]
+E       	(No symbol) [0x00007FF7EA0993EB]
+E       	(No symbol) [0x00007FF7EA089C24]
+E       	BaseThreadInitThunk [0x00007FFF76C17344+20]
+E       	RtlUserThreadStart [0x00007FFF784826B1+33]
+
+..\..\..\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py:105: TimeoutException</failure></testcase><testcase classname="test_entry_ad.TestEntryAd" name="test_entry_ad" time="10.761" /><testcase classname="test_exit_intent.TestExitIntent" name="test_exit_intent" time="7.295" /><testcase classname="test_home.TestHome" name="test_home" time="7.709" /></testsuite></testsuites>

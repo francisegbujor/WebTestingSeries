@@ -20,6 +20,14 @@ class HomePage(BasePage):
     dynamicLoadingLink = (By.LINK_TEXT, "Dynamic Loading")
     entryAdLink = (By.LINK_TEXT, "Entry Ad")
     exitIntentLink = (By.LINK_TEXT, "Exit Intent")
+    fileDownloadLink = (By.LINK_TEXT, "File Download")
+    fileUploadLink = (By.LINK_TEXT, "File Upload")
+    floatingMenuLink = (By.LINK_TEXT, "Floating Menu")
+    forgotPasswordLink = (By.LINK_TEXT, "Forgot Password")
+    formAuthenticationLink = (By.LINK_TEXT, "Form Authentication")
+    framesLink = (By.LINK_TEXT, "Frames")
+    geolocationLink = (By.LINK_TEXT, "Geolocation")
+    horizontalSliderLink = (By.LINK_TEXT, "Horizontal Slider")
 
     def __init__(self, driver):
         self.driver = driver
@@ -73,3 +81,27 @@ class HomePage(BasePage):
 
     def click_exit_intent(self):
         return self.driver.find_element(*HomePage.exitIntentLink)
+
+    def click_file_download(self):
+        return self.driver.find_element(*HomePage.fileDownloadLink)
+
+    def click_file_upload(self):
+        return self.driver.find_element(*HomePage.fileUploadLink)
+
+    def click_floating_menu(self):
+        return self.driver.find_element(*HomePage.floatingMenuLink)
+
+    def click_forgot_password(self):
+        return self.driver.find_element(*HomePage.forgotPasswordLink)
+
+    def click_form_authentication(self):
+        return self.driver.find_element(*HomePage.formAuthenticationLink)
+
+    def click_frames(self):
+        return self.driver.find_element(*HomePage.framesLink)
+
+    def click_geolocation(self):
+        return self.driver.find_element(*HomePage.geolocationLink)
+
+    def click_horizontal_slider(self):
+        return self.driver.find_element(*HomePage.horizontalSliderLink)
